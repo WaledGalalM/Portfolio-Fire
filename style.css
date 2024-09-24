@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}html {
+    scroll-behavior: smooth;
+  }
+body{
+font-family: Arial;
+width: 100%;
+background-color: rgba(26, 5, 18, 0.902);
+color: white;
+}
+
+.nav-bar{
+    position: absolute;
+    position: fixed;
+    top: 570px;
+    bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+    background:hsl(0, 0%, 18%);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+}.nav-bar i{
+    font-size: 30px;
+    color: gray;
+}
+
+header .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 10px  20px;
+    padding: 5px;
+}header .nav span{
+    color: rgb(180, 180, 190);
+}header .nav img{
+    width: 100px;
+    height: 100px;
+ 
+}header .text-me *{
+    text-align: center;
+    margin: 20px 0;
+}
+header .text-me h3{
+    color: gray;
+    
+}
+
+
+header .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto ;
+    height: 50px;
+    margin-bottom: 20px;
+}header .links a{
+    text-align: center;
+    width: 49%;
+    height: 100%;
+    border-radius: 5px;
+    padding:15px;
+    text-decoration: none;
+    font-weight: 900;
+    border: solid 1px;
+    letter-spacing: 1px;
+}header .links :first-child{
+    color: white;
+}#about{
+    background: white;
+}header .img-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+}header .icons{
+    display: flex;
+    flex-direction: column;
+}header .icons i{
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 25px;
+}header .img-icons .icons a :first-child{
+    color: black;
+}
+header .img-icons .icons :nth-child(2) i{
+    color: rgb(117, 117, 177);
+}
+header .icons i:hover{
+    transform: scale(1.5);
+}header .img-icons .img img{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px;
+   
+}header .scroll {
+   writing-mode: vertical-lr;
+   cursor: pointer;
+    
+}header .scroll a{
+    text-decoration: none;
+    color: white;
+    
+}
+.AboutMe {
+    width: 100%;
+    margin: 20px 0;
+}.AboutMe .Myintro{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}.AboutMe .Myintro p{
+    color: gray;
+}.AboutMe .logo{
+    width: 100%;
+}.AboutMe .logo img{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+}.AboutMe .job{
+    text-align: center;
+    width: 100%;
+    padding: 0 10px;
+
+}.AboutMe .job h3{
+    padding: 0 60px;
+    margin-bottom: 10px;
+}.AboutMe .job p{
+    padding: 0 30px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: rgb(236, 236, 244);
+    margin-bottom: 20px;
+
+}.AboutMe .job a{
+    width: 40%;
+    background: white;
+    height: 100px;
+    text-decoration: none;
+    padding: 10px;border-radius: 5px;
+}
+
+
+.My-Skills{
+    margin: 100px 0;
+}.My-Skills .text *{
+    text-align: center;
+    margin: 10px;
+}.My-Skills .text{
+    margin-bottom: 10px;
+}.My-Skills .text p{
+    color: gray;
+}.Abilities{
+    border-radius: 10px;
+    margin: 0 20px;
+    background:hsl(0, 0%, 12%);
+    text-align: center;
+}.front{
+    padding: 20px 0 ;
+}.allAbili{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.allAbili .Abi-left{
+    width: 25%;
+    margin-bottom: 50px;
+}.allAbili .Abi-right{
+    width: 25%;
+    margin-bottom: 50px;
+}.allAbili .Abi-left p ,.allAbili .Abi-right p{
+    width: 100%;
+    margin: 10px ;
+    text-align: left;
+}
+
+
+.My-Services{
+    margin-bottom: 50px;
+}.My-Services .text{
+    text-align: center;
+}.My-Services .text p{
+    color: gray;
+    margin-bottom: 5px;
+}.My-Services .text h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}.My-Services .Responive{
+    width: 90%;
+    height: 75px;
+    margin: auto ;
+    background: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding-left: 20px;
+}.My-Services .Responive h3{
+    padding-top: 15px ;
+}.My-Services .Responive a{
+    text-decoration: none;
+    color: white;
+    padding-top: 7px;
+    transition: .7s ease-in;
+}.My-Services .Responive a:hover{
+    transform: scale(1.1);
+    color: blueviolet;
+}
+
+.My-Projects{
+    margin-bottom: 50px;
+}.My-Projects .text *{
+    text-align: center;
+    margin-bottom: 10px;
+}.My-Projects .text{
+    margin-bottom: 20px;
+}.My-Projects .text p{
+        color: gray;
+        font-size: 20px;
+}.My-Projects .d1{
+    width: 80%;
+    background-color: hsl(0, 0%, 20%);
+    margin: auto;
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    box-shadow:
+     0 -3em 3em rgba(147, 145, 171, 0.3),
+    0 0 0 0.2px white,
+    0.3em 0.3em 1em rgba(13, 8, 8, 0.3);
+}.My-Projects .d1:hover{
+    transform: scale(1.1);
+    box-shadow:
+     0 3em 3em rgba(147, 145, 171, 0.3),
+    0 0 0 0.2px white,
+    0.3em 0.3em 1em rgba(13, 8, 8, 0.3);
+    opacity: 0.80;
+}.My-Projects .d1 img{
+    width: 100%;
+    height: 70%;
+}.My-Projects .d1 h2{
+    margin: 10px 0;
+    font-size: 16px;
+}.My-Projects .d1 a{
+    text-decoration: none;
+    color: white;
+
+}.My-Projects .d1 a:hover{
+    color: rgb(135, 102, 166);
+}.My-Projects .d1 a i{
+    margin-left: 5px;
+}.Contact .text{
+    text-align: center;
+}.Contact .text p{
+    color: gray;
+}.sochil h4 {
+    text-align: center;
+    margin: 15px 0;
+}
+.Contact .sochil .soch{
+    width: 80%;
+    margin: auto;
+    height: 170px;
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}.Contact .sochil .soch *{
+    margin: 10px 0;
+}.Contact .sochil .WhatsApp{
+    padding: 0;
+}.Contact .sochil .Email p{
+    color: rgb(70, 54, 54);
+}.Contact .sochil .WhatsApp p{
+    color: yellowgreen;
+}.Contact .sochil .soch a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}.Contact .sochil .WhatsApp a:hover{
+    color: yellowgreen;
+    transition: .5s ease-in;
+}.Contact .sochil .Email a:hover{
+   color: rgb(150, 150, 187) ;
+   transition: .5s ease-in;
+}.Contact .inputs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}.Contact #name,.Contact #email{
+    width: 100%;
+    background: rgba(26, 5, 18, 0.902);
+    margin: 5px 0;
+    border: 1px solid gray;
+    outline: none;
+    height: 40px;
+    color: white;
+    padding: 10px;
+}#message{
+   
+    width: 100%;
+    background: rgba(26, 5, 18, 0.902);
+    outline:none ;
+    border: 1px solid gray;;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    height: 140px;
+    padding-bottom: 170px;
+}#submit{
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 700;
+}#submit :focus{
+    background: gray;
+}.Contact .Contact-all .sochil{
+    width: 80%;
+    margin: auto;
+}footer{
+    width: 100%;
+    background: gray;
+    text-align: center;
+    margin-top: 20px;
+    height: 250px;
+}footer h1{
+    padding: 10px 0;
+    text-shadow: 1px 10px  20px;
+}footer .icons i{
+   margin: 20px 10px;
+   font-size: 30px;
+   color: black;
+   transition: .5s ease;
+}footer .icons i:hover{
+    transform: scale(1.1);
+    transform: rotate(-0.9turn);
+}footer p{
+    color: rgb(23, 8, 8);
+}
+
+
+/* Start  showOffer */
+.showOffer{
+    position: absolute;
+    top: 1560px;
+    width: 80%;
+    height: 300px ;
+    margin-left: 10%;
+    background-color:rgba(26, 5, 18, 0.902);
+    z-index: 111;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+   
+}#x{
+    cursor: pointer;
+
+}
+.responsive{
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}.opshains p{
+    color: rgb(137, 120, 120);
+    margin: 8px 0;
+}
+/* End showOffer */
+
+
+
+
+@media(min-width:600px){ 
+
+body main .nav-bar{
+    position: absolute;
+    position: fixed;
+    top: 650px;
+    margin-left: 30%;
+    width: 40%;
+    height: 60px;
+    background:hsl(0, 0%, 18%);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+}.nav-bar i{
+    font-size: 30px;
+    color: gray;
+}
+
+.nav span{
+    font-size: 40px;
+}.nav h3{
+    font-size: 35px;
+}header .nav img{
+    width: 150px;
+    height: 150px;
+}header .links{
+    width: 35%;
+}header .img-icons{
+    margin: 100px 0 150px 0;
+}header .img-icons .icons{
+    width: 50px;
+    height: 50px;
+}header .img-icons .icons i{
+    width: 100%;
+    height: 100%;
+}header .img-icons .img img{
+    width: 500px;
+    height:  500px;
+}
+
+.AboutMe .logo-job{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.AboutMe .logo-job .job{
+    text-align: left;
+    padding-right: 30px;
+}.AboutMe .job h3{
+    padding: 0;
+    margin-bottom: 0;
+}.AboutMe .job p{
+    padding: 0;
+}#h3{
+    margin-bottom: 10px;
+}
+.My-Skills{
+    margin: 100px 0;
+}.My-Skills .text *{
+    text-align: center;
+    margin: 10px;
+}.My-Skills .text{
+    margin-bottom: 20px;
+}.My-Skills .text p{
+    color: gray;
+}.My-Skills .text h1{
+    letter-spacing: 2px;
+}.Abilities{
+    border-radius: 10px;
+    background:hsl(0, 0%, 12%);
+    text-align: center;
+}.front{
+    padding: 20px 0 ;
+}.allAbili{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}.allAbili .Abi-left{
+    width: 25%;
+    margin-bottom: 50px;
+}.allAbili .Abi-right{
+    width: 25%;
+    margin-bottom: 50px;
+}.allAbili .Abi-left img{
+    width: 100%;
+}.allAbili .Abi-right img{
+    width: 100%;
+}
+
+.My-Projects .allPro{
+    display: flex;
+    justify-content: space-between;
+    
+}.My-Projects .d1{
+    width: 27%;
+    background-color: hsl(0, 0%, 20%);
+    margin: auto;
+    height: 250px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 15px;
+}.My-Projects .d1 h2{
+   font-size: 16px;
+}.Contact{
+    padding: 0 50px;
+}.Contact .inputs{
+    width: 50%; 
+}.Contact .Contact-all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}.Contact .sochil .soch{
+    width: 70%px;
+    height: 150px;
+    background-color:rgba(26, 5, 18, 0.902);
+    border-radius: 5px;
+    text-align: center;
+    
+}.sochil h4 {
+    text-align: center;
+    margin: 10px 0;
+}/* Start section locale  showOffer */
+.showOffer{
+    position: absolute;
+    top: 1770px;
+    width: 80%;
+    height: 300px ;
+    margin-left: 10%;
+    background-color:rgba(26, 5, 18, 0.902);
+    z-index: 111;
+    border-radius: 5px;
+    padding: 10px;
+
+}.responsive{
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}.opshains p{
+    color: rgb(137, 120, 120);
+    margin: 8px 0;
+}
+
+
+/* Start section locale  showOffer */
+.showOffer{
+    position: absolute;
+    top:2100px;
+    width: 80%;
+    height: 400px ;
+    margin-left: 10%;
+    background-color:rgba(26, 5, 18, 0.902);
+    z-index: 111;
+    border-radius: 5px;
+    padding: 20px;
+    
+}.responsive{
+    font-size: 20px;
+    
+    margin: 10px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}.opshains p{
+    color: rgb(164, 147, 147);
+    margin: 30px 0;
+}
+
+
+
+
+
+}
