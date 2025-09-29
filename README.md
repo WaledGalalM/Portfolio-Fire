@@ -10,7 +10,7 @@
 ## 🚀 المهارات الأساسية  
 
 - ⚡ **Frontend Development:**  
-  - Angular (15 – 17)  
+  - Angular (17 - 18)  
   - RxJS  
   - TypeScript  
   - JavaScript (ES6+)  
@@ -18,7 +18,7 @@
 
 - 🎨 **UI/UX & Design:**  
   - Responsive Design  
-  - Bootstrap, Tailwind CSS  
+  - Bootstrap
   - Material UI  
 
 - 🔧 **أدوات & Workflow:**  
